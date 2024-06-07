@@ -2,6 +2,19 @@
 
 This repository contains the code and resources for removing noise from audio samples using Wavelet Transform. The project utilizes the Wavelet Transform to effectively denoise audio signals, providing a clearer and amplified output.
 
+## Table of Contents
+
+1. [Overview](#overview)
+2. [Wavelet Transform](#wavelet-transform)
+3. [Signal Denoising using Wavelet Transform](#signal-denoising-using-wavelet-transform)
+4. [Python Implementation](#python-implementation)
+5. [Code Example](#code-example)
+    - [Single File Denoising](#single-file-denoising)
+    - [FFT Comparison](#fft-comparison)
+    - [Batch Processing for Multiple Files](#batch-processing-for-multiple-files)
+6. [References](#references)
+7. [Contact](#contact)
+
 ## Overview
 
 Wavelet transform is a powerful tool for analyzing signals with non-stationary or time-varying characteristics. Unlike the Fourier transform, which represents a signal purely in the frequency domain, the wavelet transform provides both frequency and time information. This makes it particularly useful for denoising audio signals where noise characteristics vary across different frequency bands.
